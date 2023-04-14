@@ -1,0 +1,222 @@
+#head{
+    
+}
+.head__top{
+    padding: 0 var( --mg-main );
+   
+}
+.logo{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKrvsm3c5095u4OuaDFyT6cXSEHqXcyos5IA&usqp=CAU);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo__img{
+    height: 100px;
+}
+.nav__head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav__language{
+float: right;
+}
+.nav__list{
+    display: flex;
+}
+.nav__list-item{
+    padding: 10px 30px;
+    font-size: 25px;
+
+}
+.nav__list-item:hover{
+    background-color: brown;
+    color: #f0f0f0;
+}
+.head__bg{
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8EUVLlWMsQBXOBjiKFuNJBXCX2lmOMvr_g&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+.head__context{
+    font-size: 40px;
+    color: #f0f0f0;
+}
+#container{
+    padding: 0  var( --mg-main ) 30px var( --mg-main );
+}
+.container__header{
+   position: relative;
+   box-shadow: 0 5px 40px 20px #0a0a0a4d;
+   transform: translateY(-35%);
+   background-color: #f0f0f0;
+   margin: 0 40px;
+   border-radius: 20px;
+   overflow: hidden;
+}
+.header__top{
+    
+}
+.top__list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top__item{
+    padding: 20px 0;
+    flex: 1;
+    text-align: center;
+}
+.item__target{
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtDhOZ8WS86oqQntzORskZcEwORlILZwV7Q&usqp=CAU);    
+      color: #f0f0f0;
+}
+.header__bottom{
+    /* padding: 10px 30px;l */
+}
+.bottom__list{
+    display: flex;
+}
+.bottom__item{
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.bottom__input{
+    flex: 2;
+   
+}
+.item__input{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    width: 100%;
+   
+}
+.item__input:hover{
+    cursor: text;
+}
+.item__btn{
+    padding: 15px 40px;
+    background-color: rgb(60, 60, 194);
+    color: #f0f0f0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.product__head{
+    padding: 15px 0 15px var(--mg-table);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtDhOZ8WS86oqQntzORskZcEwORlILZwV7Q&usqp=CAU);    
+    color: #f0f0f0;
+}
+.product__nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product__container{
+   
+}
+.product__list{
+    
+}
+.product__item{
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    padding: 10px 15px;
+}
+.list__item:hover{
+    background-color: darkgrey;
+}
+.product__dark{
+    background-color: darkgrey;
+}
+.item__long{
+    flex: 2;
+}
+.list__item{
+    display: flex;
+    padding-left:var(--mg-table);
+}
+.product__img{
+    height: 70px;
+}
+#footer{
+    padding: 40px var( --mg-main );
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvwparjVtVUF5yR2JZIH2T069-QxfVuDBNZw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.footer__container{
+    display: flex;
+}
+.footer__item{
+    flex: 1;
+    padding: 20px;
+}
+.footer__header{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.contact__item{
+
+}
+
+.feedback__form{
+
+}
+.form{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.form__Name{
+   
+}
+.form__Email{
+   
+}
+.form__Context{
+    height: 100px;
+    
+    
+}
+.links_item{
+
+}
+.link__tothetop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+}
+.btn__tothetop{
+   
+    background-color: currentColor;
+    display: inline;
+  
+    height: 50px;
+    padding: 15px 20px;
+
+}
+.btn__tothetop i{
+    color: #f0f0f0;
+    margin: 0;
+}
+.tothetop__context{
+    margin-top: 15px;
+    transform: translateX(-10%);
+}
